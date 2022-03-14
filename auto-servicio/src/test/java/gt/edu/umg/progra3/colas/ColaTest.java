@@ -9,8 +9,7 @@ public class ColaTest {
 
     @Before
     public void init(){
-        cola = new ColaImplementation();
-
+        cola = new ColaImpl();
         cola.enqueue("Bienvenidos");
         cola.enqueue("a");
         cola.enqueue("Programacion 3");
